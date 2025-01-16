@@ -6,7 +6,7 @@ const data = {
     contact: {
         email: "julia.brady@ucalgary.ca",
         phone: "587-578-9007",
-        linkedin: "https://www.linkedin.com/in/julia-brady-87aa9130b2"
+        linkedin: "https://www.linkedin.com/in/julia-brady-87aa9130b2",
         github: "https://github.com/julesbrady",
     }
 }
