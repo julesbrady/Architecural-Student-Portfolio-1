@@ -2,7 +2,7 @@
 
 const data = {
     name: "Julia Brady",
-    bio: "Undergraduate Architectural Student at University of Calgary passionate about architectural accesibility",
+    bio: "Undergraduate Architectural Student at The University of Calgary",
     contact: {
         email: "julia.brady@ucalgary.ca",
         phone: "587-578-9007",
