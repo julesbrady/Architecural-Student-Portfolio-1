@@ -34,7 +34,7 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Model 1
         <div class="three-model">
-          <div id="model1"></div>
+         <img src="./313 Cadvre exquis proper size.png" />
         </div>
         <div id="images-description">
           <div id="images">
@@ -48,6 +48,7 @@ document.querySelector("#app").innerHTML = `
         </div>
       </div>
 
+      ${/* Model 2 commented out 
       <div id="project-row">
       Model 2
         <div class="three-model">
@@ -65,8 +66,10 @@ document.querySelector("#app").innerHTML = `
           <h4 id="description">A 3D tree model is a geometric representation of a tree, featuring a trunk, branches, and foliage. The trunk is typically cylindrical, with textured bark, while the branches extend outward to support leaves or a canopy. It may include roots or flowers for added detail.</h4>
         </div>
       </div>
+*/ ""}
 
-      <div id="project-row">
+${/* Model 3 commented out       
+<div id="project-row">
       Model 3
         <div class="three-model">
           <div id="model3"></div>
@@ -82,6 +85,7 @@ document.querySelector("#app").innerHTML = `
           <h4 id="description">A 3D house model is a geometric representation of a house, featuring walls, a roof, and windows. It often includes additional details such as doors, chimneys, and balconies, with textures like brick, wood, or stucco to enhance realism. The interior may also feature rooms, furniture, and lighting for a more detailed design.</h4>
         </div>
       </div>
+      */ ""}
     </section>
 
     <ul id="footer-items">
@@ -98,6 +102,12 @@ document.querySelector("#app").innerHTML = `
 `;
 
 // Create three.js scenes for each
+{/* Model 1 commented out 
 createThreeScene("#model1", "/3DModels/project1/cube.obj");
+*/ ""}
+{/* Model 2 commented out 
 createThreeScene("#model2", "/3DModels/project2/tree.obj");
+*/ ""}
+{/* Model 3 commented out 
 createThreeScene("#model3", "/3DModels/project3/cottage.obj");
+*/ ""}
