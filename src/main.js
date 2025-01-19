@@ -34,7 +34,7 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       Model 1
         <div class="three-model">
-         <img src="./Cadvre excquis proper size.png" id="model1" alt="Model 1 Image" />
+         <img src="./"file.jpg id="model1" alt="Model 1 Image" />
         </div>
         <div id="images-description">
           <div id="images">
@@ -102,7 +102,9 @@ ${/* Model 3 commented out
 `;
 
 // Create three.js scenes for each
+{/* Model 1 commented out 
 createThreeScene("#model1", "/3DModels/project1/cube.obj");
+*/ ""}
 {/* Model 2 commented out 
 createThreeScene("#model2", "/3DModels/project2/tree.obj");
 */ ""}
