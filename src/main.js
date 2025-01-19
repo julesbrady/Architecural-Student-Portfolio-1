@@ -102,9 +102,7 @@ ${/* Model 3 commented out
 `;
 
 // Create three.js scenes for each
-{/* Model 1 commented out 
 createThreeScene("#model1", "/3DModels/project1/cube.obj");
-*/ ""}
 {/* Model 2 commented out 
 createThreeScene("#model2", "/3DModels/project2/tree.obj");
 */ ""}
