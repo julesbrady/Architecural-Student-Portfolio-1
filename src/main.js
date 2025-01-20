@@ -41,9 +41,13 @@ document.querySelector("#app").innerHTML = `
         <div id="images-description">
           <div id="images">
          <a href= "https://architecural-student-portfolio-1-bxyr4yepe.vercel.app/pictures/cadvre%20(2).jpg" target="_blank">
+          <img src="./images/cadvre%20(2).jpg" alt="image 2" />
           <a href= "https://architecural-student-portfolio-1-f49gjo3gm.vercel.app/pictures/cadvre%20(3).jpg" target="_blank">
+             <img src="./images/cadvre%20(3).jpg" alt="image 3" />
           <a href= "https://architecural-student-portfolio-1-bxyr4yepe.vercel.app/pictures/cadvre%20(4).jpg" target="_blank">
-          <a href= "https://architecural-student-portfolio-1-bxyr4yepe.vercel.app/pictures/cadvre%20(5).jpg" target="_blanl">
+             <img src="./images/cadvre%20(4).jpg" alt="image 4" />
+          <a href= "https://architecural-student-portfolio-1-bxyr4yepe.vercel.app/pictures/cadvre%20(5).jpg" target="_blank">
+             <img src="./images/cadvre%20(5).jpg" alt="image 5" />
           
           
             ${cadvres
