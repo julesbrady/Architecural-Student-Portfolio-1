@@ -151,3 +151,14 @@ img {
     margin: 5px 0;
   }
 }
+a {
+  text-decoration: none; /* Removes underlines from links */
+}
+
+a img {
+  display: block; /* Ensures only the image shows */
+}
+
+a::after {
+  content: ''; /* Removes any leftover text content */
+}
