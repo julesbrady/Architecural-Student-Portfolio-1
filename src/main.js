@@ -32,7 +32,7 @@ document.querySelector("#app").innerHTML = `
 
     <section id="projects">
       <div id="project-row">
-      Cadavre Exquis: Conserving optimism
+      Cadavre Exquis: Conserving Optimism
 
         <div class="three-model">
          <img src="./file.jpg" id="model1" alt="Model 1 Image" />
