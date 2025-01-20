@@ -32,7 +32,8 @@ document.querySelector("#app").innerHTML = `
 
     <section id="projects">
       <div id="project-row">
-      Model 1
+      Cadavre Exquis: Conserving optimism
+
         <div class="three-model">
          <img src="./file.jpg" id="model1" alt="Model 1 Image" />
         </div>
