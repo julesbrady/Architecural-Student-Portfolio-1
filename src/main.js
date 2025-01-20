@@ -35,6 +35,7 @@ document.querySelector("#app").innerHTML = `
       Cadavre Exquis: Conserving Optimism
 
         <div class="three-model">
+        
          <img src="./file.jpg" id="model1" alt="Model 1 Image" />
         </div>
         <div id="images-description">
