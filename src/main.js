@@ -2,7 +2,7 @@ import "./style.css";
 import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
-const cubes = [
+const cadvres = [
   "./pictures/cadvre (2).jpg",
   "./pictures/cadvre (3).jpg",
   "./pictures/cadvre (4).jpg",
@@ -44,7 +44,9 @@ document.querySelector("#app").innerHTML = `
               )
               .join("")}
           </div>
-          <h4 id="description">A cubic 3D model is a geometric representation of a cube, consisting of six equal square faces joined at right angles. Each edge of the cube is of equal length, forming a symmetrical, rigid structure. The model can be textured, colored, or transparent, and it may include variations such as beveled edges or hollow interiors, depending on its intended purpose in design, animation, or engineering.</h4>
+          <h4 id="description">As we venture into the unknown of tomorrow we find ourselves in a world of increasing conflict, violence,brutality, polarization and callousness. Today’s world is riddled with more crises, more tragedies and more corruption than one could ever comprehend.  Yet, while we recognize the connections of our current environment to historical parallels that, in their time,  foreshadowed outbreaks of devastation, we move towards this daunting future with inertia. We recognize it, we apprehensively know it’s coming, yet, we remain immobile when it comes to preventing our regression to yesterday's collapse. The problem is, we believe it’s irreversible. Bombarded with devastating stories and realities we are drained of our hope and pessimistic mindsets gain control. Pessimism, becoming a missile we are subconsciously aiming at our future selves. In our crumbling contemporary world, optimism is fleeting. The ability to face hardships and overcome them  through finding beauty and gratitude nurtures and conserves  our capacity for hope. Yet the more dire our future appears, this ability for optimism dwindles alongside any chance of hope. In this tumultuous period, it is of utmost importance that optimism is conserved. We can regain and foster optimism by continuing  to discover elements of the world  that give our lives value, seek the pleasing, find joy and curate hope with the beauty that, while concealed, still remains in our lives and in our futures. The resilience of nature, the aesthetic and beauty of the built environment and the charm of the remaining vibrance in our world must provide a solace of hope, a source of joy and gratitude that when recognized morphs pessimism into optimism. When our ability to conserve optimism and generate hope is lost, history will repeat itself, and the future will collapse. Therefore, despite the bleak regression to doom and violence that is the current trajectory of our future, we must harness optimism, a skill that is critical in redefining a different tomorrow. 
+
+</h4>
         </div>
       </div>
 

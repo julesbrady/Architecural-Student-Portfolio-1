@@ -2,7 +2,7 @@
   /* Global font, line-height, and colors */
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 300;
   color: rgba(39, 36, 36, 0.87);
   background-color: rgb(252, 248, 247);
 }
@@ -96,16 +96,16 @@ h1 {
 #model2,
 #model3 {
   height: 300px;
-  width: 300px;
+  width: 465px;
   margin-right: 3em;
-  margin-left: 6em;
+  margin-left: 3em;
   border: 1px solid #ccc;
 }
 
 img {
   /* Image dimensions and margin */
-  height: 120px;
-  width: 120px;
+  height: 180px;
+  width: 180px;
   margin: 0.5em;
 }
 
@@ -121,7 +121,7 @@ img {
 #images-row {
   /* Row layout for images */
   display: flex;
-  align-items: center;
+  align-items: left;
   align-items: center;
   position: relative;
 }
@@ -130,11 +130,12 @@ img {
   /* Center description content */
   display: flex;
   align-items: center;
-  height: 4em;
-  width: 35em;
+  height: 25em;
+  width: 65em;
   font-weight: 100;
+  font-size: 12px; /* Reduce the font size here */
   margin-left: 2em;
-  margin-top: 3em;
+  margin-top: 1em;
 }
 
 @media screen and (max-width: 768px) {
