@@ -40,6 +40,10 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div id="images-description">
           <div id="images">
+          <a href= "https://architecural-student-portfolio-1-bxyr4yepe.vercel.app/pictures/cadvre%20(2).jpg" target="_blank">
+          <a href= "https://architecural-student-portfolio-1-f49gjo3gm.vercel.app/pictures/cadvre%20(3).jpg" target="_blank">
+          <a href= "https://architecural-student-portfolio-1-bxyr4yepe.vercel.app/pictures/cadvre%20(4).jpg" target="_blank">
+          <a href= "https://architecural-student-portfolio-1-bxyr4yepe.vercel.app/pictures/cadvre%20(5).jpg" target="_blanl">
             ${cadvres
               .map(
                 (cadvre, index) => `<img src="${cadvre}" alt="cadvre${index + 1}" />`
