@@ -35,8 +35,8 @@ document.querySelector("#app").innerHTML = `
       Cadavre Exquis: Conserving Optimism
 
         <div class="three-model">
-       <a href="https://architectural-student-portfolio-1-bxyr4yepe.vercel.app/file.jpg" target="_blank">
                <img src="./file.jpg" id="model1" alt="Model 1 Image" />
+               <a href="https://architecural-student-portfolio-1-bxyr4yepe.vercel.app/file.jpg" target="_blank">
         </div>
         <div id="images-description">
           <div id="images">
