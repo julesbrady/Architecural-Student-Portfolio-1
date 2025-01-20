@@ -3,10 +3,10 @@ import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
 const cubes = [
-  "./cubeDrawings/cube1.webp",
-  "./cubeDrawings/cube2.webp",
-  "./cubeDrawings/cube3.webp",
-  "./cubeDrawings/cube4.webp",
+  "./pictures/cadvre (2).jpg",
+  "./pictures/cadvre (3).jpg",
+  "./pictures/cadvre (4).jpg",
+  "./pictures/cadvre (5).jpg",
 ];
 
 const trees = [
@@ -38,9 +38,9 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div id="images-description">
           <div id="images">
-            ${cubes
+            ${cadvres
               .map(
-                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
+                (cadvre, index) => `<img src="${cadvre}" alt="cadvre${index + 1}" />`
               )
               .join("")}
           </div>
