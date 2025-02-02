@@ -1,89 +1,22 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Specifies the character encoding for the document -->
-    <meta charset="UTF-8" />
-    <!-- Sets the favicon for the webpage -->
-    <link rel="icon" href="/favicon-32x32.png" />
-    <!-- Ensures proper rendering and touch zooming on mobile devices -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Title of the webpage displayed in the browser tab -->
-    <title>Julia brady portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <!-- Root element where the application will be rendered -->
-    <div id="app"></div>
-    <!-- Imports the main JavaScript module for the application -->
-    <script type="module" src="/src/main.js"></script>
-    <header>
-        <h1>Julia Brady</h1>
-        <p>Undergraduate Architectural Student at The University of Calgary</p>
-    </header>
-
-    <main>
-        <div class="project-buttons">
-            <a href="#first-assignment" class="project-btn">P01 Cadavre Exquis</a>
-            <a href="#second-assignment" class="project-btn">P02 Inter (Operability)</a>
-        </div>
-    </main>
-
-    <!-- First Assignment (Initially Hidden) -->
-    <section id="first-assignment">
-        <h2>First Assignment</h2>
-        <p>Your first project’s existing content remains here.</p>
-    </section>
-
-    <!-- Second Assignment (Initially Hidden) -->
-    <section id="second-assignment">
-        <h2>Second Assignment: 3D Models</h2>
-        <p>Your second project content remains here.</p>
-    </section>
-  </div>  
-  </body>
-</html>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Homepage</title>
-    <style>
-        /* Styling the text-box-style button */
-        .text-box-button {
-            display: inline-block;
-            padding: 15px 30px;
-            font-size: 18px;
-            font-weight: bold;
-            color: #007BFF;
-            text-align: center;
-            text-decoration: none;
-            border: 2px solid #007BFF;
-            border-radius: 8px;
-            background-color: transparent;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        /* Hover effect */
-        .text-box-button:hover {
-            background-color: #007BFF;
-            color: white;
-        }
-    </style>
+    <title>Julia Brady Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <div class="container">
         <h1>Julia Brady</h1>
         <p>Undergraduate Architectural Student at The University of Calgary</p>
-    </header>
-
-    <main>
-        <div class="project-buttons">
-            <a href="#first-assignment" class="project-btn">P01 Cadavre Exquis</a>
-            <a href="#second-assignment" class="project-btn">P02 Inter (Operability)</a>
-        </div>
-    </main>
-
+        
+        <div class="button-container">
+            <a href="p01.html" class="button">P01 Cadavre Exquis</a>
+            <a href="p02.html" class="button">P02 Inter (Operability)</a>
+        </div>        
+    </div>
+    
+    <script src="main.js"></script>
+</body>
 </html>

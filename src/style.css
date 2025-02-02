@@ -1,165 +1,131 @@
+/* Root font, line-height, and colors */
 :root {
-  /* Global font, line-height, and colors */
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 300;
-  color: rgba(39, 36, 36, 0.87);
-  background-color: rgb(252, 248, 247);
+  line-height: 1.6;
+  font-weight: 400;
+  color: #333;
+  background-color: #f8f8f8;
 }
 
+/* Reset margins, padding, and box-sizing */
 * {
-  /* Reset margins, padding, and set box-sizing */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-#app {
-  /* Flex container for the app root */
+/* Main container for centering everything */
+.container {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
-}
-
-#container {
-  /* Main container padding */
-  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   padding: 20px;
+  max-width: 1200px;
+  margin: auto;
 }
 
-#footer-items {
-  /* Footer styling and positioning */
+/* Footer styles */
+.footer-items {
   position: fixed;
   bottom: 0;
-  left: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background-color: #333;
+  padding: 10px;
+  background-color: #222;
   color: white;
   z-index: 10;
 }
 
+/* Link styling */
 a {
-  /* Link styling */
-  color: #8da3eb;
+  color: #0066cc;
   text-decoration: none;
 }
 
 a:hover {
-  /* Link hover effects */
-  color: #4c6aca;
   text-decoration: underline;
-  transition: 0.2s;
 }
 
-#heading {
-  /* Center heading content */
-  display: flex;
-  flex-direction: column;
-  margin: 2em;
-  justify-content: center;
-  align-items: center;
+/* Headings */
+h1, h2, h3 {
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 h1 {
-  /* Heading font size */
-  font-size: 2.5em;
+  font-size: 2em;
+  font-weight: bold;
 }
 
-#projects {
-  /* Center project section */
+/* Project sections */
+.projects {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 10em;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
-#project-row {
-  /* Row layout for projects */
-  display: flex;
-  justify-content: center;
-  padding-top: 5em;
-}
-
+/* Three.js models styling */
 .three-model {
-  /* Styling for project models */
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
-#model1,
-#model2,
-#model3 {
-  height: 300px;
-  width: 465px;
-  margin-right: 3em;
-  margin-left: 3em;
+.models {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
   border: 1px solid #ccc;
 }
 
-img {
-  /* Image dimensions and margin */
-  height: 180px;
-  width: 180px;
-  margin: 0.5em;
-}
-
-#images {
-  /* Center image container */
+/* Images styling */
+.images-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 8em;
-  margin-bottom: 2em;
-}
-
-#images-row {
-  /* Row layout for images */
-  display: flex;
-  align-items: left;
-  align-items: center;
   position: relative;
+  margin-bottom: 20px;
 }
 
-#description {
-  /* Center description content */
+img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+/* Project descriptions */
+.description {
   display: flex;
+  justify-content: center;
   align-items: center;
-  height: 25em;
-  width: 65em;
-  font-weight: 100;
-  font-size: 12px; /* Reduce the font size here */
-  margin-left: 2em;
-  margin-top: 1em;
+  margin-top: 15px;
+  font-size: 1em;
+  max-width: 800px;
 }
 
+/* Responsive design */
 @media screen and (max-width: 768px) {
-  #footer-items {
-    /* Responsive footer styling */
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1rem;
+  .footer-items {
+      margin: 5px 0;
   }
+}
 
-  #footer-items p {
-    /* Adjust footer paragraph margin on smaller screens */
-    margin: 5px 0;
-  }
 /* Hide assignments initially */
-#first-assignment, #second-assignment {
-  display: none !important;
-  opacity: 0;
+.assignment-section {
+  display: none;
   transition: opacity 0.5s ease-in-out;
 }
 
-/* Show the sections when the class is added */
-#first-assignment.show, #second-assignment.show {
-  display: block !important;
+/* Show when activated */
+.assignment-section.show {
+  display: block;
   opacity: 1;
 }
 
@@ -168,8 +134,25 @@ img {
   text-align: center;
 }
 
-.image-links {
+/* Button styling */
+.button-container {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: rgb(96, 56, 56);
+  background: #ffdbe8;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease-in-out;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #000000;
 }
