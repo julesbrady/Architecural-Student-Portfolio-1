@@ -150,15 +150,26 @@ img {
     /* Adjust footer paragraph margin on smaller screens */
     margin: 5px 0;
   }
-}
-a {
-  text-decoration: none; /* Removes underlines from links */
-}
-
-a img {
-  display: block; /* Ensures only the image shows */
+/* Hide assignments initially */
+#first-assignment, #second-assignment {
+  display: none !important;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 
-a::after {
-  content: ''; /* Removes any leftover text content */
+/* Show the sections when the class is added */
+#first-assignment.show, #second-assignment.show {
+  display: block !important;
+  opacity: 1;
+}
+
+/* Center project content */
+.project {
+  text-align: center;
+}
+
+.image-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
