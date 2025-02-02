@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .gallery-item {
+            text-align: center;
+        }
+        .gallery-item img {
+            width: 200px;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery-item img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color: #333;">Gallery</h1>
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <a href="https://source-link1.com" target="_blank">
+                <img src="source-image1.jpg" alt="Source 1">
+            </a>
+            <p>Source 1 Description</p>
+        </div>
+        <div class="gallery-item">
+            <a href="https://source-link2.com" target="_blank">
+                <img src="source-image2.jpg" alt="Source 2">
+            </a>
+            <p>Source 2 Description</p>
+        </div>
+        <!-- Add more items as needed -->
+    </div>
+</body>
+</html>
